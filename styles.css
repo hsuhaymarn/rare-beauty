@@ -1,0 +1,177 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: beige;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+li{
+  float: left; 
+}
+
+li{
+  display: block;
+  color: #492758;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: lightgoldenrodyellow;
+}
+#search{
+	width: 20%;
+	float: right;
+	margin: 15px 80px 3px 80px;
+}
+/*our best selling products*/
+h1{
+	font-family: georgia;
+	font-size: 26px;
+	color: #492758;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
+	background-color: beige;
+}
+/*titles of face, eyes, tools and lip*/
+.subtitle{
+	font-family: centaur;
+	font-size: 24px;
+	color: #492758;
+	margin: 30px 0px 30px 0px;
+}
+/* each item of face products*/
+.f1{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid beige;
+	width: 210px;
+	height: 400px;
+}
+
+.price{
+	margin: 39px 0px 15px 0px;
+}
+/* each item of lip products*/
+.l1{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid beige;
+	width: 230px;
+	height: 370px;
+}
+/*more color for lip products*/
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: black;
+	margin: 10px 0px 10px 0px;
+}
+.b1:hover{
+	background-color: grey;
+	opacity: 0.9;
+}
+.b2:hover{
+	background-color: grey;
+	opacity: 0.9;
+}
+.b3:hover{
+	background-color: grey;
+	opacity: 0.9;
+}
+/*eye products*/
+.e1{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid beige;
+	width: 220px;
+	height: 400px;
+}
+/* each item of makeup tools & accessories*/
+.t1{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid beige;
+	width: 220px;
+	height: 400px;
+}
+img{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/*All items of face products*/
+#face{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+/*All items of lip products*/
+.lip{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/*All items of eyes products*/
+.eyes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/*All items of makeup tools products*/
+.tools{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+hr{
+	color: grey;
+	opacity: 0.5;
+}
+/*product names of each item*/
+.name{
+	font-family: kalinga;
+	font-size: 15px;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: beige;
+}
+/*shop, service and company*/
+.title{
+	font-size: 15px;
+}
+/*instructions of shop*/
+.shop{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 160px 10px 100px;
+}
+/*instructions of service*/
+.service{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 160px 10px 80px;	
+}
+/*instructions of company*/
+.company{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 100px 10px 80px;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 100px 10px 80px;
+}
