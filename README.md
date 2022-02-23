@@ -1,2 +1,0 @@
-# rare-beauty
-Rare Beauty
